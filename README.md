@@ -1,0 +1,2 @@
+# Git Auto Deploy (NodeJS)
+- Deploy your GitHub, GitLab or Bitbucket projects automatically on Git push events or webhooks using this small HTTP server written in NodeJS. Continuous deployment in it's most simple form.

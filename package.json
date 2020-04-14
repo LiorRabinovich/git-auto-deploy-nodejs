@@ -1,0 +1,24 @@
+{
+  "name": "git-auto-deploy-nodejs",
+  "version": "1.0.0",
+  "description": "- Deploy your GitHub, GitLab or Bitbucket projects automatically on Git push events or webhooks using this small HTTP server written in NodeJS. Continuous deployment in it's most simple form.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiorRabinovich/git-auto-deploy-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiorRabinovich/git-auto-deploy-nodejs/issues"
+  },
+  "homepage": "https://github.com/LiorRabinovich/git-auto-deploy-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
